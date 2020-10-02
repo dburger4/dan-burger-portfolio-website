@@ -1,10 +1,11 @@
 ---
-introduction: "hey it's me"
-tagline: 'Design. Code. Experiment'
-cta_label: 'View Documentation'
-cta_link: 'https://github.com/Knochenmark/gatsby-starter-level-2/blob/master/README.md'
+introduction: "Hello there! My name is"
+tagline: 'Welcome to my website'
+cta_label: 'Go to my Resume'
+cta_link: 'dan-burger-resume.pdf'
 ---
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua.
+Senior studying Computer Engineering at Purdue University.
+Seeking full-time employment after May 2021.
+Interested in software roles that can challenge me and
+give me opportunities to learn and grow!

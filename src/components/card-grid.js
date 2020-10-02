@@ -12,8 +12,8 @@ const StyledTextSection = styled.section`
 const StyledFeatureGridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 2.5rem;
-  margin-top: 2.5rem;
+  grid-gap: 1.5rem;
+  margin-top: 1rem;
   width: 100%;
 
   ${mq.gt.xs} {
@@ -41,14 +41,14 @@ const StyledFeatureCard = styled.article`
 `;
 const StyledCardLabel = styled.h2`
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: rem 0;
   color: var(--body-color);
 `;
 const StyledDivider = styled.div`
   width: 15%;
   height: 2px;
   background-color: var(--primary-color);
-  margin-bottom: 1rem;
+  // margin-bottom: 1rem;
 `;
 const StyledFeatureDescription = styled.p`
   font-size: 0.8rem;

@@ -4,6 +4,7 @@ export const StyledImageContainer = styled.div`
   min-width: 300px;
   min-height: 200px;
   position: relative;
+  padding-top: 2rem;
 
   & .gatsby-image-wrapper * {
     transition: transform var(--transition-fast) ease-in-out !important;

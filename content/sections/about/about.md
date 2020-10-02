@@ -1,11 +1,12 @@
 ---
-title: 'The Gatsby starter that makes developer dreams come true!'
-about_image: './me.jpg'
-techs: ['Gatsby', 'Javascript', 'React', 'GraphQL', 'Emotion', 'Stylus']
+title: 'I love working with people just as much as I love working with computers'
+about_image: './dan.jpg'
+techs: ['Python', 'Ruby', 'C/C++', 'Java', 'Javascript', 'Ruby on Rails', 'Git', 'Docker',  'REST API', 'Leadership', 'Public Speaking']
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas sit amet arcu tincidunt fermentum. Mauris ac nisl nibh. Etiam nunc eros, blandit vel eros laoreet, accumsan lacinia turpis.
+My hard work in college has allowed me to grow my network and gain professional experinece in the form of two internships. [At Buildout](https://buildout.com/), I built a RESTful API Web Service for Social Media integration with Ruby on Rails. [At Northrop Grumman](https://www.northropgrumman.com/), I researched and integrated Docker containers into the subsystem testing suite and built Docker images for individual tests.
 
-Phasellus ut sagittis eros. Curabitur quis libero consequat, iaculis dolor sollicitudin, ultricies ligula. Donec sodales sed ex a fermentum. Quisque vitae efficitur odio, non aliquam sapien.
+I am the president and a performing member of Purdue's improv group, [The Crazy Monkeys](https://www.crazymonkeyscomedy.com),
+and I held a mid teir leadership role in [Boiler Gold Rush](https://www.purdue.edu/orientation/bgr/index.html), Purdue's orientation program.
 
-Proin egestas luctus ornare. Donec maximus est lobortis, pharetra dolor in, convallis lorem. Duis ut erat in lectus faucibus iaculis. In tincidunt laoreet ante, vel pellentesque risus lacinia eu.
+

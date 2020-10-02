@@ -10,8 +10,8 @@ import { StyledSection } from './_shared/styled-section';
 const StyledAboutContainer = styled.article`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 2.5rem;
-  padding: 2.5rem 0;
+  grid-gap: 1.5rem;
+  // padding: 1rem 0;
 
   ${mq.gt.sm} {
     grid-template-columns: repeat(2, 1fr);

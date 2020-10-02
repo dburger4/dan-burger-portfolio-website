@@ -73,12 +73,12 @@ const Footer = ({ author }) => {
         </StyledCopyright>
         <SocialIcons icons={socialIconList} />
       </StyledSocialContainer>
-      <StyledRotator>
+      {/* <StyledRotator>
         Made with
         <span role="img" aria-label="heart emoji">
           💖
         </span>
-      </StyledRotator>
+      </StyledRotator> */}
     </StyledFooter>
   );
 };

@@ -50,6 +50,7 @@ const StyledDescription = styled.div`
 const Hero = ({ data }) => {
   const { introduction, author, tagline, description, ctaLink, ctaLabel } = data;
 
+
   return (
     <StyledHeroSection>
       <StyledIntroduction>{introduction}</StyledIntroduction>

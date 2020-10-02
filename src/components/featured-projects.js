@@ -15,8 +15,8 @@ import { StyledSection } from './_shared/styled-section';
 const StyledFeaturedProject = styled.article`
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-gap: 2.5rem;
-  padding: 2.5rem 0;
+  grid-gap: 1.5rem;
+  padding: 1.5rem 0;
 
   ${mq.gt.sm} {
     grid-template-columns: repeat(2, 1fr);
@@ -35,7 +35,7 @@ const StyledProjectInfoContainer = styled.section`
 `;
 const StyledDescription = styled.section`
   ${contentBox}
-  max-height: 180px;
+  max-height: 160px;
   position: relative;
   padding: 10px;
 
@@ -48,7 +48,7 @@ const StyledDescription = styled.section`
 `;
 const StyledLinkContainer = styled.section`
   ${flexEnd};
-  margin: 10px 0;
+  // margin: 10px 0;
 
   & > a {
     display: flex;
@@ -68,7 +68,7 @@ const StyledLinkContainer = styled.section`
 const StyledArchiveContainer = styled.div`
   ${flexCenter};
   width: 100%;
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
 `;
 
 const FeaturedProjects = ({ featured }) => {
@@ -123,7 +123,7 @@ const FeaturedProjects = ({ featured }) => {
       <StyledH1>Featured Projects</StyledH1>
       {featuredProjects}
       <StyledArchiveContainer>
-        <TextLink label="View More Projects" link="/projects" />
+        <TextLink label="View All My Projects" link="/projects" />
       </StyledArchiveContainer>
     </StyledSection>
   );

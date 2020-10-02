@@ -63,19 +63,19 @@ const Contact = ({ data }) => {
   return (
     <React.Fragment>
       <StyledContactSection id="contact">
-        <StyledH1>Contact Details</StyledH1>
+        <StyledH1>Contact Me</StyledH1>
         <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />
         <StyledSeparator />
         <StyledContacts>
-          {address && (
+          {/* {address && (
             <StyledContainer>
-              <Icon icon="building" />
+              <Icon icon="home" />
               <StyledFormContainer>
-                <StyledForm>Office Location</StyledForm>
+                <StyledForm>My Address</StyledForm>
                 <span>{address}</span>
               </StyledFormContainer>
             </StyledContainer>
-          )}
+          )} */}
           {email && (
             <StyledContainer>
               <Icon icon="paper-plane" />
@@ -85,7 +85,7 @@ const Contact = ({ data }) => {
               </StyledFormContainer>
             </StyledContainer>
           )}
-          {phone && (
+          {/* {phone && (
             <StyledContainer>
               <Icon icon="mobile-alt" />
               <StyledFormContainer>
@@ -93,7 +93,7 @@ const Contact = ({ data }) => {
                 <span>{phone}</span>
               </StyledFormContainer>
             </StyledContainer>
-          )}
+          )} */}
         </StyledContacts>
       </StyledContactSection>
     </React.Fragment>

@@ -7,7 +7,7 @@ import { flexCenter } from './../_shared/styled-mixins';
 export const StyledTextLink = styled(Link)`
   ${flexCenter};
   text-decoration: none;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   font-weight: 500;
   white-space: nowrap;
   padding: 0.4rem 0.8rem;
