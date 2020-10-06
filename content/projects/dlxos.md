@@ -1,5 +1,5 @@
 ---
-featured: true
+featured: false
 date: '2020-04-15'
 title: 'ECE 469: DLXOS Project'
 cover_image: './images/code-blur.png'
