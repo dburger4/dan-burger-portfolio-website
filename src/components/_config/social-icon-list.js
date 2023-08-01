@@ -17,7 +17,7 @@ export const socialIconList = [
   {
     name: 'file-alt',
     prefix: 'fas',
-    link: 'dan-burger-resume.pdf'
+    link: 'Dan-Burger-Resume-2023.pdf'
   }
   // Add further social links with the icon of choice and link here
   // check https://fontawesome.com/icons?d=gallery&s=brands for other brand icons

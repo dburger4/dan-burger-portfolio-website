@@ -67,21 +67,21 @@ const Contact = ({ data }) => {
         <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />
         <StyledSeparator />
         <StyledContacts>
-          {/* {address && (
-            <StyledContainer>
-              <Icon icon="home" />
-              <StyledFormContainer>
-                <StyledForm>My Address</StyledForm>
-                <span>{address}</span>
-              </StyledFormContainer>
-            </StyledContainer>
-          )} */}
-          {email && (
+        {email && (
             <StyledContainer>
               <Icon icon="paper-plane" />
               <StyledFormContainer>
                 <StyledForm>My E-Mail</StyledForm>
                 <span>{email}</span>
+              </StyledFormContainer>
+            </StyledContainer>
+          )}
+          {address && (
+            <StyledContainer>
+              <Icon icon="home" />
+              <StyledFormContainer>
+                <StyledForm>My Location</StyledForm>
+                <span>{address}</span>
               </StyledFormContainer>
             </StyledContainer>
           )}

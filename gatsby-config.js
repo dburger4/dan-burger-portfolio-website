@@ -5,7 +5,7 @@ module.exports = {
     titleTemplate: '%s | Dan Burger',
     image: '',
     author: 'Dan Burger',
-    description: 'Gatsby starter to quickly setup your portfolio and boost it to the next level.',
+    description: 'Personal Website for Dan Burger, Software Engineer',
     url: 'https://knochenmark.github.io',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },

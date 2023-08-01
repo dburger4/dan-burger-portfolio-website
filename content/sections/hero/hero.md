@@ -1,11 +1,8 @@
 ---
-introduction: "Hello there! My name is"
+introduction: "Hi there! My name is"
 tagline: 'Welcome to my website'
-cta_label: 'Go to my Resume'
-cta_link: 'dan-burger-resume.pdf'
+cta_label: 'View my resume'
+cta_link: 'Dan-Burger-Resume-2023.pdf'
 ---
 
-Senior studying Computer Engineering at Purdue University.
-Seeking full-time employment after May 2021.
-Interested in software roles that can challenge me and
-give me opportunities to learn and grow!
+I am a Software Engineer and Lifelong Learner. I am currently pursuing career opportunities where I can grow into a technical leadership roll while contributing both my hard software skills and my soft people skills.
