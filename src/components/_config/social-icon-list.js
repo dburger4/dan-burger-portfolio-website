@@ -2,7 +2,7 @@ export const socialIconList = [
   {
     name: 'linkedin',
     prefix: 'fab', // fab prefix for brands, fas for solid icons
-    link: 'https://www.linkedin.com/in/danielrburger/',
+    link: 'https://www.linkedin.com/in/danrburger/',
   },
   {
     name: 'github',
@@ -12,7 +12,7 @@ export const socialIconList = [
   {
     name: 'envelope',
     prefix: 'fas',
-    link: 'mailto:burger5@purdue.edu'
+    link: 'mailto:dburger314@gmail.com'
   },
   {
     name: 'file-alt',
