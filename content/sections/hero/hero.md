@@ -1,5 +1,5 @@
 ---
-introduction: "Hi there! My name is"
+introduction: "Hello world! My name is"
 tagline: 'Welcome to my website'
 cta_label: 'View my resume'
 cta_link: 'Dan-Burger-Resume-2023.pdf'
