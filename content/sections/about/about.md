@@ -8,6 +8,6 @@ I've spent the past few years as a Software Engineer II at [Lockheed Martin Spac
 
 I earned my bachelor's degree in [Computer Engineering from Purdue University](https://engineering.purdue.edu/ECE) and worked internships at [Northrop Grumman](https://www.northropgrumman.com/) and [Buildout](https://www.buildout.com/).
 
-During my free time, you can find me performing in comedy shows (improv and sketch) at Rise Comedy, rollerblading, and running.
+During my free time, you can find me performing in comedy shows (improv and sketch) at [Rise Comedy](https://risecomedy.com/), rollerblading, and running.
 
 
