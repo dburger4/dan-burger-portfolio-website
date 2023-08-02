@@ -1,6 +1,8 @@
 import styled from '@emotion/styled';
+import { Link } from 'gatsby';
 import React from 'react';
 import Icon from './icon';
+import Icon2 from './icon';
 import { mq } from './_shared/media';
 import { StyledH1 } from './_shared/styled-headings';
 import { StyledSection } from './_shared/styled-section';
@@ -56,7 +58,7 @@ const StyledContacts = styled.div`
 
 const Contact = ({ data }) => {
   const {
-    frontmatter: { phone, email, address },
+    frontmatter: { linkedin, email, address },
     html,
   } = data;
 
@@ -67,6 +69,18 @@ const Contact = ({ data }) => {
         <StyledTextSection dangerouslySetInnerHTML={{ __html: html }} />
         <StyledSeparator />
         <StyledContacts>
+        {/* {linkedin && (
+            <Link to="https://www.linkedin.com/in/danrburger/" target="_blank">
+              <StyledContainer>
+                <Icon2 icon="linkedin-in" />
+                <StyledFormContainer>
+                  <StyledForm>My LinkedIn</StyledForm>
+                  <span>{linkedin}</span>
+                </StyledFormContainer>
+              </StyledContainer>
+            </Link>
+            
+        )} */}
         {email && (
             <StyledContainer>
               <Icon icon="paper-plane" />
@@ -80,20 +94,11 @@ const Contact = ({ data }) => {
             <StyledContainer>
               <Icon icon="home" />
               <StyledFormContainer>
-                <StyledForm>My Location</StyledForm>
+                <StyledForm>My City</StyledForm>
                 <span>{address}</span>
               </StyledFormContainer>
             </StyledContainer>
           )}
-          {/* {phone && (
-            <StyledContainer>
-              <Icon icon="mobile-alt" />
-              <StyledFormContainer>
-                <StyledForm>Phone Number</StyledForm>
-                <span>{phone}</span>
-              </StyledFormContainer>
-            </StyledContainer>
-          )} */}
         </StyledContacts>
       </StyledContactSection>
     </React.Fragment>

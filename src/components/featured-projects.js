@@ -126,7 +126,7 @@ const FeaturedProjects = ({ featured }) => {
         <TextLink label="See all my projects" link="/projects" />
       </StyledArchiveContainer>
       <StyledArchiveContainer>
-        <TextLink label="Books I've read to keep my skills sharp" link="/blog" />
+        <TextLink label={"Books I've read\nto keep my skills sharp"} link="/blog" />
       </StyledArchiveContainer>
     </StyledSection>
   );

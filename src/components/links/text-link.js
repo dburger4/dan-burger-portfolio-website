@@ -8,8 +8,8 @@ export const StyledTextLink = styled(Link)`
   ${flexCenter};
   text-decoration: none;
   font-size: 1.5rem;
+  white-space: normal;
   font-weight: 500;
-  white-space: nowrap;
   padding: 0.4rem 0.8rem;
   color: var(--primary-color);
 

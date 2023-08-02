@@ -4,6 +4,7 @@ export const flexCenter = css`
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 `;
 
 export const flexEnd = css`
