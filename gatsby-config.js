@@ -1,12 +1,11 @@
 module.exports = {
-  pathPrefix: '/dan-burger-portfolio-website',
   siteMetadata: {
     title: 'Dan Burger',
     titleTemplate: '%s | Dan Burger',
     image: '',
     author: 'Dan Burger',
     description: 'Personal Website for Dan Burger, Software Engineer',
-    url: 'https://knochenmark.github.io',
+    url: 'https://dburger4.github.io',
     paginationPageSize: 4, // Amount of posts displayed per listing page.
   },
   plugins: [
