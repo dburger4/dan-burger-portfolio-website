@@ -123,7 +123,10 @@ const FeaturedProjects = ({ featured }) => {
       <StyledH1>Featured Projects</StyledH1>
       {featuredProjects}
       <StyledArchiveContainer>
-        <TextLink label="View All My Projects" link="/projects" />
+        <TextLink label="See all my projects" link="/projects" />
+      </StyledArchiveContainer>
+      <StyledArchiveContainer>
+        <TextLink label="See what I've been reading to keep my skills up to date" link="/blog" />
       </StyledArchiveContainer>
     </StyledSection>
   );

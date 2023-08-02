@@ -9,11 +9,11 @@ export const indexMenuLinks = [
     link: '/#projects',
     icon: 'terminal',
   },
-  // {
-  //   name: 'Blog',
-  //   link: '/#blog',
-  //   icon: 'feather-alt',
-  // },
+  {
+    name: 'Book Club',
+    link: '/blog',
+    icon: 'feather-alt',
+  },
   {
     name: 'Contact',
     link: '/#contact',
@@ -28,7 +28,12 @@ export const blogMenuLinks = [
     icon: 'code',
   },
   {
-    name: 'Blog',
+    name: 'Projects',
+    link: '/projects',
+    icon: 'terminal',
+  },
+  {
+    name: 'Book Club',
     link: '/blog',
     icon: 'feather-alt',
   },

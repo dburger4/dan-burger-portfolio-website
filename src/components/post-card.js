@@ -62,7 +62,7 @@ const StyledPostCard = styled.article`
   color: var(--title-color);
   margin-bottom: var(--space);
   padding: 0;
-  padding-bottom: calc(3rem * 2);
+  padding-bottom: calc(2rem * 2);
 
   > a {
     text-decoration: none;
@@ -83,7 +83,6 @@ const PostCard = ({ title, date, description, link, coverImage, tags }) => {
       <Link to={link}>
         <StyledContent>
           <StyledTitle>{title}</StyledTitle>
-          <StyledPublishingDate>published on {date}</StyledPublishingDate>
           <StyledDescription>{description}</StyledDescription>
         </StyledContent>
       </Link>
