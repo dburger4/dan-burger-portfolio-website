@@ -8,4 +8,4 @@ canonical_url: false
 description: 'Design Patterns taught me dozens of software patterns I can now recognize and use in my daily life as a Software Engineer. This is a must read for any developer working in a large and complex Object-Oriented codebase'
 ---
 
-A great book!
+A great book! - More details and a full write up to come soon.
